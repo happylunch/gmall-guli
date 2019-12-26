@@ -6,7 +6,20 @@
 
     <groupId>com.happy.gmall</groupId>
     <artifactId>gmall-guli</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.9</maven.compiler.source>
+        <maven.compiler.target>1.9</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.9</maven.compiler.compilerVersion>
+    </properties>
+
+    <modules>
+        <module>gmall-common</module>
+        <module>gmall-api</module>
+        <module>gmall-mbg</module>
+    </modules>
 
 
 </project>
